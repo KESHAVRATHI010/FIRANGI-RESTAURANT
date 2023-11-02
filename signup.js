@@ -13,7 +13,7 @@ app.use(
 );
 
 mongoose.connect("mongodb://127.0.0.1:27017/Firangi");
-
+const port=process.env.PORT || 3000
 var db = mongoose.connection;
 
 db.on("error", () => console.log("Error in Connecting to Database"));
@@ -48,6 +48,6 @@ app
     });
     return res.redirect("signup.html");
   })
-  .listen(3000);
+  .listen(port);
 
 console.log("Listening on PORT 3000");
