@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headerbar{
+    display: none;
+}
+
+.searchicon{
+    display: block;
+}
+
+.logo img{
+    width: 150px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 7vw;
+    background-color: rgb(248,232,217);
+    border: 2px solid rgb(252,196,124);
+    box-shadow: 0 2px 20px rgb(253,124,124) ;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+}
+
+.header ul li:hover{
+    color: rgb(253,57,8);
+}
+
+.bar{
+    display: none;
+}
+
+.nav ul li {
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.account{
+    flex: 0.1;
+}
+
+.account ul{
+    display: flex;
+    justify-content: end;
+}
+
+.account ul li {
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+.bar i:hover{
+    color: rgb(253,57,8);
+}
+
+.search{
+    display: none;
+    width:200px ;
+    justify-content: center;
+}
+
+.search input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+.srchicon{
+    background-color: rgb(255,210,210);
+    display: block;
+    padding: 4px 5px;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 40px;
+    color: black;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+a{
+  text-decoration: none;
+  color: white;  
+} 
+
+input,textarea,select{
+    width: 100%;
+    background-color: rgb(248,232,217) ;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    resize: none;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.bat-body-box{
+    padding: 20px;
+}
+
+.bat-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.bat-col-12{
+    width: 100%;
+}
+
+.bat-col-6{
+    width: 48%;
+}
+
+.bat-col-3{
+    width: 30%;
+}
+
+.bat-head{
+    color: rgb(255, 255, 255);
+    background-color: rgb(252,210,183);
+    padding: 20px 5px;
+    text-align: center;
+}
+
+.bat-container{
+    background-color: rgb(248,232,217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 89.5vh;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.bat-body{
+    width: 500px;
+    background-color: rgb(252,210,183);
+}
+
+.white_btn{
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(253,77,8);
+    border: 1px solid rgb(253,77,8);
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 15px rgb(250,120,69);
+    transition: all 0.2s;
+}
+
+.white_btn:hover{
+    color: white;
+    background-color: rgb(253,77,8);
+    box-shadow: 0 10px 15px rgb(250,120,69);
+}
+
+@media screen and (max-width:768px){
+    .header .nav ,.header .account{
+        display: none;
+    }
+    .search{
+        width: 60vw;
+    }
+    .bar{
+        display: block;
+        cursor: pointer;
+    }
+    .headerbar{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        bottom: 0;
+        right: -100%;
+        transition: all 0.5s;
+        background-color: rgb(252,231,216);
+    }
+    .headerbar .account , .headerbar .nav{
+        display: block;
+        font-size: 18px;
+    }
+    .bar .fa-xmark{
+        display: none;
+        top: 20px;
+        right: 5vw;
+        position: absolute;
+        font-size: 25px;
+    }
+    .headerbar .nav ul{
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+    }
+    .headerbar .nav li{
+        width: 96vw;
+        margin: 10px 0;
+        padding: 15px 30px;
+        box-shadow: 0 2px 15px rgb(252,193,169);
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .headerbar .account{
+        line-height: 40px;
+        margin-top: 60px;
+        background-color: rgb(252,210,183);
+        padding: 15px;
+    }
+    .headerbar .account ul{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:600px){
+    .bat-row{
+        flex-direction: column;
+        padding: 0;
+    }
+    .bat-col-12{
+        padding: 10px 0;
+        width: 100%;
+    }
+    .bat-col-6{
+        padding: 10px 0;
+        width: 100%;
+    }
+    .bat-col-3{
+        padding: 10px 0;
+        width: 30%;
+    }
+    .bat-container{
+        padding: 50px 16px;
+    }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Royal Thali",
+    "varients":["Small","Medium","Large"]
+    "prices": [
+      { "Small": 2500, "Medium": 5000, "Large": 7500}
+    ],
+    "category": "Veg",
+    "image": "https://indothainews.com/wp-content/uploads/2019/12/rajasthani1.png",
+    "description": "Traditional Food OF Rajasthan"
+  },
+  {
+    "name": "Dal Batti Churma",
+    "varients":["Small","Medium","Large"]
+    "prices": [
+      { "Small": 2500, "Medium": 5000, "Large": 7500}
+    ],
+    "category": "Veg",
+    "image": "https://www.secondrecipe.com/wp-content/uploads/2020/11/dal-bati-churma.jpg",
+    "description": "Traditional Food OF Rajasthan"
+  },
+  {
+    "name": "Mirchi Bada",
+    "varients":["Small","Medium","Large"]
+    "prices": [
+      { "Small": 2500, "Medium": 5000, "Large": 7500}
+    ],
+    "category": "Veg",
+    "image": "https://manjulaskitchen.com/wp-content/uploads/mirchi_vada_chili_fritters.jpg",
+    "description": "Mirchi bada is a spicy Indian snack consisting of chili and potato and fried, served hot with tomato sauce and tamarind chutney."
+  },
+  {
+    "name": "Kesar Feni",
+    "varients":["Small","Medium","Large"]
+    "prices": [
+      { "Small": 2500, "Medium": 5000, "Large": 7500}
+    ],
+    "category": "Veg",
+    "image": "https://www.mithaiexpress.com/wp-content/uploads/2018/11/feeni-b-2.jpg",
+    "description": "Kesar Feni Is A Special Tasteful Wintersweet Made With Important Pride And Moxie Across Rajasthan. Made From Fine Wheat Flour, Desi Ghee, And Saffron."
+  },
+  {
+    "name": "Lapsi",
+    "varients":["Small","Medium","Large"]
+    "prices": [
+      { "Small": 2500, "Medium": 5000, "Large": 7500}
+    ],
+    "category": "Veg",
+    "image": "https://pipingpotcurry.com/wp-content/uploads/2019/10/Gujrati-Lapsi-Recipe-Piping-Pot-Curry-3.jpg",
+    "description": "Lapsi a traditional dish Rajasthani dish made with daliya(cracked wheat),gud(jaggery) and ghee."
+  },
+  {
+    "name": "Moong Dal Ka Halwa",
+    "varients":["Small","Medium","Large"]
+    "prices": [
+      { "Small": 2500, "Medium": 5000, "Large": 7500}
+    ],
+    "category": "Veg",
+    "image": "https://www.funfoodfrolic.com/wp-content/uploads/2021/10/Dal-Halwa Blog-500x500.jpg",
+    "description": "Moong Dal Halwa is an addictive and delicious halwa variant made with mung lentils, milk, sugar and nuts."
+  },
+  {
+    "name": "Malpua",
+    "varients":["Small","Medium","Large"]
+    "prices": [
+      { "Small": 2500, "Medium": 5000, "Large": 7500}
+    ],
+    "category": "Veg",
+    "image": "https://zaykarecipes.com/wp-content/uploads/2017/03/malpua-recipe.jpg",
+    "description": "Malpua are traditional North Indian pancakes made with wheat flour,jaggery or sugar and cardamom powder."
+  },
+]	
